@@ -1,0 +1,51 @@
+[
+	{
+		"itemCode":"itemCode -1",
+		"itemDescription":"itemDescription -1", 
+		"itemPrice":500,
+		"itemQuantity":10,
+		"totalValue":"5000"
+	},
+	{
+		"itemCode":"itemCode -2",
+		"itemDescription":"itemDescription -2", 
+		"itemPrice":220.20,
+		"itemQuantity":5,
+		"totalValue": 1111.00
+	},
+	{
+		"itemCode":"itemCode -3",
+		"itemDescription":"itemDescription -3", 
+		"itemPrice":333.00,
+		"itemQuantity":3,
+		"totalValue":999
+	},
+	{
+		"itemCode":"itemCode -4",
+		"itemDescription":"itemDescription -4", 
+		"itemPrice":4,
+		"itemQuantity":3,
+		"totalValue":12
+	},
+	{
+		"itemCode":"itemCode -5",
+		"itemDescription":"itemDescription -5", 
+		"itemPrice":5,
+		"itemQuantity":3,
+		"totalValue":15
+	},
+	{
+		"itemCode":"itemCode -6",
+		"itemDescription":"itemDescription -6", 
+		"itemPrice":6,
+		"itemQuantity":7,
+		"totalValue":42
+	},
+	{
+		"itemCode":"itemCode -7",
+		"itemDescription":"itemDescription -7", 
+		"itemPrice":8,
+		"itemQuantity":9,
+		"totalValue":72.00
+	}
+]

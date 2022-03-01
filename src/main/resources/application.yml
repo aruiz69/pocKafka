@@ -1,0 +1,35 @@
+spring:
+  kafka:
+        ######String########
+     # client-id: rest-producer
+     # bootstrap-servers: localhost:9092
+     # producer:
+     #   key-serializer: org.apache.kafka.common.serialization.StringSerializer
+     #   value-serializer: org.apache.kafka.common.serialization.StringSerializer
+       ######Json########
+
+     # client-id: Json-producer
+     # bootstrap-servers: localhost:9092
+     # producer:
+     #   key-serializer: org.apache.kafka.common.serialization.StringSerializer
+     #   value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
+     #   properties:
+     #     spring.json.add.type.header: false
+          
+      
+      ######AVRO########
+    client-id: avro-post-simulator
+    bootstrap-servers: localhost:9092
+    producer:
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: io.confluent.kafka.serializers.KafkaAvroSerializer
+      properties:
+        schema.registry.url: http://localhost:8081
+
+application:
+  configs:
+    invoce.count: 6
+    topic.name : avro-post-topic
+    
+    
+    

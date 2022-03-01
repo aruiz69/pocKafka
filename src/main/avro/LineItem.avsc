@@ -1,0 +1,12 @@
+{
+	"namespace": "com.test.kafka.demo.generator.model.avro",
+	"type": "record",
+	"name": "LineItem",
+	"fields": [
+				{"name":"itemCode", "type": "string"},
+				{"name":"itemDescription", "type": "string"},
+				{"name":"itemQuantity", "type": "int"},
+				{"name":"totalValue", "type": "double" },
+				{"name":"itemPrice", "type": "double" }
+	          ]
+}

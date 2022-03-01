@@ -1,0 +1,12 @@
+{
+	"namespace": "com.test.kafka.demo.generator.model.avro",
+	"type": "record",
+	"name": "DeliveryAddress",
+	"fields": [
+				{"name":"addressline", "type": "string"},
+				{"name":"city", "type": "string"},
+				{"name":"state", "type": "string"},
+				{"name":"pinCode", "type": "string"},
+				{"name":"contactNumber", "type": "string"}	
+	          ]
+}

@@ -1,0 +1,14 @@
+{
+	"namespace": "com.test.kafka.demo.generator.model.avro",
+	"type": "record",
+	"name": "PosInvoce",
+	"fields": [
+				{"name":"id", "type":"string" },
+				{"name":"name", "type":"string" },
+				{"name":"delivery", "type": "DeliveryAddress" },
+				{"name":"items", "type": {"type":"array", 
+				       "items":"LineItem", 
+				        "java-class": "java.util.List" }}
+	          ]
+}
+	
